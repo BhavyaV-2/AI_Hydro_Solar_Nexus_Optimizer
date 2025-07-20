@@ -1,0 +1,27 @@
+# Ignore the virtual environment
+hydro-env/
+streamlit_app/hydro-env/
+
+# Ignore Python junk
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore models/datasets
+*.keras
+*.h5
+*.pkl
+*.csv
+*.xlsx
+*.zip
+
+env
+venv
+
+# Ignore API keys
+kaggle.json
+.kaggle/
+
+# Ignore VSCode and system files
+.vscode/
+.DS_Store
